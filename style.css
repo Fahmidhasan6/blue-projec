@@ -1,0 +1,248 @@
+/*header start*/
+header{
+    /* border: solid red; */
+    background-color:#121B2A;
+    padding: 10px 0;
+}
+body{
+    background-color: #121b2c;
+}
+.wraper {
+    /* border: 1px solid rgb(137, 47, 255);  */
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 15%;
+    /* border: solid rgb(200, 209, 186); */
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu {
+    width: 70%;
+    /* border: solid rgb(47, 255, 255); */
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 35px 50px 0;
+    display: block;
+    color: white;
+    transition: .5s;
+}
+.menu ul li :last-child{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color:#0079bf;
+}
+/*header end*/
+/*baner start*/
+.banner{
+    background-image: url(../imageb/pexels-uzunov-rostislav-5382600.jpg);
+    /* border:solid rgb(177, 131, 14); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 500px; */
+    background-position: center;
+}
+/* .wrapper{ */
+.text01{
+    /* border: solid red; */
+    margin-top: 300px;
+    margin-bottom: 50px;
+    width: 40%;
+    font-family: sans-serif;
+    color: white;
+}
+.text01 p:first-child{
+    color: white;
+   
+    font-size: 20px;
+
+}
+.text01 h1{
+    font-size: 40px;
+    color: #0474b0;
+}
+/* .text01 p:last-child{ */
+/* .text01 button{ */
+/* .text01 button span{ */
+/* baner end */
+/* serves start */
+
+.service{
+    background-color: #121b2c;
+    padding: 2px 0; 
+    overflow: hidden;
+    /* border: 1 px solid gold; */
+
+}
+.single{
+     /* border:2px solid red;  */
+    width: 29%;
+    float: left;
+    padding: 15px 25px;
+    min-height: auto;
+}
+.title{
+    overflow: hidden;
+
+}
+.icon{
+    width: 25%;
+    /* border: 1px solid lightgrey; */
+    float: left;
+}
+.icon img{
+    width: 100%;
+}
+.icon-contant{ 
+    
+    width: 65%;
+    /* border: solid red; */
+    float: left;
+   
+
+}
+.icon-contant h1{
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+.icon-contant h2{
+    color: #0079bf;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.contant{
+    color:white;
+    font-family: sans-serif;
+}
+/* serves end */
+/* serves2 start */
+
+.serves2 {
+    /* border: 2px solid red; */
+    background-color:#040811;
+    overflow: hidden;
+}
+.s_singel1 {
+    width: 33%;
+    /* border: 2px solid rgb(217, 184, 22); */
+    float: left;
+}
+.text02 {
+}
+.text_top {
+    overflow: hidden;
+}
+.text_top h1{ 
+    color: #ffffff ;
+    width: 35%;
+    /* border: 1px solid lightgrey; */
+    float: left;
+}
+.text_top h2{
+    width: 50%;
+    /* border: solid red;  */
+    float: left;
+   
+    color:#0c73ac ;
+}
+.paragraf{
+    color: #ffffff;
+
+}
+ /* serves singel 3  */
+ .text02{
+    overflow: hidden;
+
+ }
+ .logo03{
+    width: 40%;
+    float: left;
+    /* border: 1px solid rgb(107, 5, 94); */
+
+ }
+ .logo04{
+    width: 40%;
+    float: left;
+    /* border: 1px solid whitesmoke; */
+
+ }
+ .logo04 h1{
+    
+    color: #ffffff;
+
+ }
+ .logo04 h2{
+    color: #0079bf;
+
+ }
+ .logo04 img{
+    width: 100%;
+ }
+/* serves2 start */
+/* footer start */
+.footer{
+    margin:30px;
+    background-color:#121b2c ;
+    overflow: hidden;
+}
+.wraper2{
+    /* border: 2px solid gold; */
+    overflow: hidden;
+    float: left;
+}
+/* .contaner { */
+    
+    /* border: 1px solid rgb(39, 7, 222); */
+    /* overflow: hidden; */
+    /* float: left; */
+.menu2{
+    
+    /* border: solid rgb(47, 255, 255); */
+    float: left;
+}
+.menu2 ul{
+    float: left;
+}
+.menu2 ul li{
+    list-style: none;
+    float: left;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    padding: 5px 25px 0;
+
+    display: block;
+    color: white;
+    transition: .5s;
+}
+
+.f_logo{
+    /* border: 1px solid wheat; */
+    float: right;
+
+}
+.textF{
+    color: #ffffff;
+    margin: 65px;
+}
+/* footer end */
